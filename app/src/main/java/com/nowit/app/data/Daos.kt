@@ -27,6 +27,6 @@ interface ReminderDao {
 interface EventDao {
     @Insert suspend fun insert(event: ReminderEvent): Long
 
-    @Query("SELECT * FROM reminder_events ORDER BY at DESC LIMIT :limit")
-    fun observeRecent(limit: Int = 500): Flow<List<ReminderEvent>>
+    @Query("SELECT * FROM reminder_events ORDER BY at DESC LIMIT 500")
+    fun observeRecent(): Flow<List<ReminderEvent>>
 }
