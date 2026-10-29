@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Bell -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,34c-8.3,0 -15,6.7 -15,15v12l-5,6v3h40v-3l-5,-6V49c0,-8.3 -6.7,-15 -15,-15zM54,78c3.3,0 6,-2.7 6,-6H48c0,3.3 2.7,6 6,6z" />
+</vector>
